@@ -21,6 +21,15 @@ var miText = document.getElementById("twitEnviado");
 var contador = document.getElementById("contador");
 
 function contar() {
-    var texto = document.getElementById("twitEnviado").value; 
-    document.getElementById("contador").innerHTML =  texto.length ;
+    var texto = document.getElementById("twitEnviado").value;
+    var contadorMax = 140; 
+    document.getElementById("contador").innerHTML = contadorMax - texto.length;
+    
+    
 }
+
+
+function ClearFields() {
+    document.getElementById("twitEnviado").value = "";
+}
+

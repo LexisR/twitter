@@ -9,13 +9,12 @@
 
 .formulario{
   text-align: center;
-   margin-top: 10px;
+  margin-top: 10px;
 }
 
 input{
   width: 400px;
   height: 120px;
- 
 }
 
 #contador{
@@ -39,15 +38,14 @@ body{
 }
 
 .informacion{
-    width: 400px;
-    height: 170px;
-    float: left;
-    background: #fff;
-    margin-top: 1em;
+  width: 400px;
+  height: 170px;
+  float: left;
+  background: #fff;
+  margin-top: 1em;
 }
 
 #newContenedor{
   z-index: 99999;
   background: #fff;
-  
 }

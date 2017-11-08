@@ -11,13 +11,14 @@
 <body>
   <div class="titulo">Twitter</div>
   <div class="formulario">
-    <input type="text" id="twitEnviado" oninput="contar()">
-    <div id="contador">Caracteres</div>
+    <input type="text" id="twitEnviado" oninput="contar()" autocomplete="off">
+    <div id="contador">/div>
     <button id="enviar" onclick="twittear()">TWEET</button>
+    <button type="button" onclick="ClearFields();">CLEAR</button>
   </div>
  <!-- <div class="informacion">
     <h2>Reto de Código</h2>
-    <p>Hola,
+    <p>Hola,  
     <br>Soy front-end developer jr.
     </p>
   </div> -->
